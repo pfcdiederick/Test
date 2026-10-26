@@ -1,0 +1,901 @@
+__V3_META__
+{
+	"objectGuid": "0f001790-6a67-4894-bf5e-1b0f17532f70",
+	"objectTypeGuid": "225bfe47-7336-4dbc-9419-4105a7c831fa",
+	"embeddedObjectTypeGuids": [],
+	"properties": {
+		"_3S.CoDeSys.DeviceObject.DeviceProperty": "<?xml version=\"1.0\" encoding=\"utf-8\"?><Single xml:space=\"preserve\" Type=\"{cdadfc2b-8598-4621-ad56-5b1df7db910f}\" Method=\"IArchivable\"><Single Name=\"DeviceIdentification\" Type=\"{05ee0b98-6639-4276-bc32-b75578b819ef}\" Method=\"IArchivable\"><Single Name=\"Type\" Type=\"int\">32776</Single><Single Name=\"Id\" Type=\"string\">9001_0750140500000000</Single><Single Name=\"Version\" Type=\"string\">2.0.0.14</Single><Null Name=\"BaseName\" /></Single></Single>"
+	}
+}
+__V3_CONTENT__
+<?xml version="1.0" encoding="utf-8"?>
+<Single xml:space="preserve" Type="{225bfe47-7336-4dbc-9419-4105a7c831fa}" Method="IArchivable">
+	<Single Name="UniqueIdGenerator" Type="string">4138</Single>
+	<Null Name="TypeList" />
+	<Single Name="NeedsBusCycle" Type="bool">False</Single>
+	<Single Name="Id" Type="{05ee0b98-6639-4276-bc32-b75578b819ef}" Method="IArchivable">
+		<Single Name="Type" Type="int">32776</Single>
+		<Single Name="Id" Type="string">9001_0750140500000000</Single>
+		<Single Name="Version" Type="string">2.0.0.14</Single>
+		<Null Name="BaseName" />
+	</Single>
+	<Single Name="DefaultDeviceInfo" Type="{59a90934-c888-40db-a9df-306fcf36d75c}" Method="IArchivable">
+		<Single Name="Name" Type="string">750-1405</Single>
+		<Single Name="Description" Type="string">16DI 24 VDC 3ms
+0750-1405</Single>
+		<Single Name="Vendor" Type="string">WAGO</Single>
+		<Single Name="OrderNumber" Type="string">750-1405</Single>
+		<Array Name="Categories" Type="int">CIAAAA==</Array>
+		<Array Name="Families" Type="string" />
+		<Single Name="Custom" Type="string"></Single>
+		<Null Name="DefaultInstanceName" />
+	</Single>
+	<Single Name="DeviceParameterSet" Type="{abc12bfe-e34e-4b2c-a058-42c6e7e03a13}" Method="IArchivable">
+		<List2 Name="Params" />
+		<Single Name="LmGuid" Type="System.Guid">b592bd32-bf41-5f3a-a6ea-23afb1542376</Single>
+		<Null Name="Sections" />
+		<Single Name="InitOnOnlineChange" Type="bool">False</Single>
+		<Single Name="AlwaysMapping" Type="bool">False</Single>
+		<Null Name="EditorName" />
+		<Single Name="AlwaysMappingMode" Type="{9d1b24fb-5845-4978-8458-564ca7830fec}">OnlyIfUnused</Single>
+		<Single Name="CreateBitChannels" Type="bool">False</Single>
+	</Single>
+	<Single Name="Disable" Type="bool">False</Single>
+	<Single Name="Exclude" Type="bool">False</Single>
+	<List Name="Connectors" Type="System.Collections.ArrayList" />
+	<Single Name="ConnectorList" Type="{52a6325f-063a-4748-86b6-ec8aa02d3232}" Method="IArchivable">
+		<List Name="InnerList" Type="System.Collections.ArrayList">
+			<Single Type="{850f737d-2abf-45f4-89c1-63ed6b29593d}" Method="IArchivable">
+				<Single Name="VisibleInterfaceName" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
+					<Single Name="Namespace" Type="string">local</Single>
+					<Single Name="Identifier" Type="string">itf.kbus.name</Single>
+					<Single Name="Default" Type="string">K-BUS</Single>
+				</Single>
+				<Single Name="ConnectorObjectGuid" Type="System.Guid">00000000-0000-0000-0000-000000000000</Single>
+				<Single Name="IsExplicit" Type="bool">False</Single>
+				<Single Name="ModuleType" Type="ushort">32776</Single>
+				<Single Name="Interface" Type="string">Wago.Kbus</Single>
+				<Single Name="Role" Type="{6827a808-5967-49c4-a827-10f6c446e075}">Child</Single>
+				<Single Name="ConnectorId" Type="int">0</Single>
+				<Single Name="Hostpath" Type="int">-1</Single>
+				<Single Name="Adapters" Type="{1da2f14a-1c63-4268-9171-3b6869b8ccd6}" Method="IArchivable">
+					<List Name="Adapters" Type="System.Collections.ArrayList">
+						<Single Type="{6d49a564-d0d1-4914-86ee-4465387ab144}" Method="IArchivable">
+							<Single Name="AllowEmptySlot" Type="bool">False</Single>
+							<Null Name="DefaultModules" />
+							<Array Name="Modules" Type="System.Guid">
+								<Single Type="System.Guid">cc7da65f-1711-4675-8d0b-3df382aee23f</Single>
+							</Array>
+							<Single Name="IncludeSlotNumber" Type="bool">False</Single>
+							<Single Name="StartSlotNumber" Type="uint">0</Single>
+							<Null Name="SlotNames" />
+							<Single Name="HiddenSlot" Type="bool">False</Single>
+						</Single>
+					</List>
+				</Single>
+				<Single Name="HostParameterSet" Type="{abc12bfe-e34e-4b2c-a058-42c6e7e03a13}" Method="IArchivable">
+					<List2 Name="Params">
+						<Single Type="{8c994079-f3c6-4484-9643-9258628feecd}" Method="IArchivable">
+							<Single Name="Id" Type="uint">10</Single>
+							<Single Name="OfflineAccess" Type="{f7a1fdea-1444-4931-82ab-fdb68bf81bcf}">None</Single>
+							<Single Name="OnlineAccess" Type="{f7a1fdea-1444-4931-82ab-fdb68bf81bcf}">None</Single>
+							<Single Name="DalaElement" Type="{08a69302-82ff-4bf9-a55d-a6014ee63990}" Method="IArchivable">
+								<Null Name="FilterFlags" />
+								<Single Name="OfflineAccess" Type="{f7a1fdea-1444-4931-82ab-fdb68bf81bcf}">None</Single>
+								<Single Name="OnlineAccess" Type="{f7a1fdea-1444-4931-82ab-fdb68bf81bcf}">None</Single>
+								<Single Name="PositionId" Type="long">4103</Single>
+								<Single Name="EditorPositionId" Type="long">4104</Single>
+								<Single Name="Description" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
+									<Single Name="Namespace" Type="string">local</Single>
+									<Single Name="Identifier" Type="string">itf.kbus.parameter.ModuleCmpValue.desc</Single>
+									<Single Name="Default" Type="string">Desired value</Single>
+								</Single>
+								<Single Name="VisibleName" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
+									<Single Name="Namespace" Type="string">local</Single>
+									<Single Name="Identifier" Type="string">itf.kbus.parameter.ModuleCmpValue</Single>
+									<Single Name="Default" Type="string">Module compare value</Single>
+								</Single>
+								<Single Name="Identifier" Type="string">10</Single>
+								<Single Name="Value" Type="string">'UUUU9001UUUUUUUU'</Single>
+								<Single Name="Type" Type="string">STRING</Single>
+								<Single Name="Default" Type="string">'UUUU9001UUUUUUUU'</Single>
+							</Single>
+							<Single Name="ParamType" Type="string">std:STRING</Single>
+							<Single Name="IndexInDevDesc" Type="long">0</Single>
+						</Single>
+						<Single Type="{8c994079-f3c6-4484-9643-9258628feecd}" Method="IArchivable">
+							<Single Name="Id" Type="uint">16777216</Single>
+							<Single Name="OfflineAccess" Type="{f7a1fdea-1444-4931-82ab-fdb68bf81bcf}">Read</Single>
+							<Single Name="OnlineAccess" Type="{f7a1fdea-1444-4931-82ab-fdb68bf81bcf}">Read</Single>
+							<Single Name="ChannelType" Type="{abf9b454-3972-4b82-88a2-feef15a02f10}">Input</Single>
+							<Single Name="DalaElement" Type="{bd387d12-7a68-42ff-9fa4-1e4e26e0dc37}" Method="IArchivable">
+								<Single Name="SubElements" Type="{45b6f676-61a0-4c78-a679-8c725851fa1e}" Method="IArchivable">
+									<List2 Name="elements">
+										<Single Type="{1944b378-8867-41f4-b1f4-6e5b1e6547ba}" Method="IArchivable">
+											<Null Name="FilterFlags" />
+											<Single Name="PositionId" Type="long">4107</Single>
+											<Single Name="EditorPositionId" Type="long">4108</Single>
+											<Single Name="Description" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
+												<Single Name="Namespace" Type="string">local</Single>
+												<Single Name="Identifier" Type="string">InputField.Channel1.Bit1.Component_1.desc</Single>
+												<Single Name="Default" Type="string">Digital input</Single>
+											</Single>
+											<Single Name="VisibleName" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
+												<Single Name="Namespace" Type="string">local</Single>
+												<Single Name="Identifier" Type="string">InputField.Channel1.Bit1.Component_1.name</Single>
+												<Single Name="Default" Type="string">_IN</Single>
+											</Single>
+											<Single Name="Identifier" Type="string">InputField.Channel1.Bit1.Component_1</Single>
+											<Single Name="BaseType" Type="{08a69302-82ff-4bf9-a55d-a6014ee63990}" Method="IArchivable">
+												<Null Name="FilterFlags" />
+												<Single Name="OfflineAccess" Type="{f7a1fdea-1444-4931-82ab-fdb68bf81bcf}">Read</Single>
+												<Single Name="OnlineAccess" Type="{f7a1fdea-1444-4931-82ab-fdb68bf81bcf}">Read</Single>
+												<Single Name="Description" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
+													<Single Name="Namespace" Type="string">local</Single>
+													<Single Name="Identifier" Type="string">InputField.Channel1.Bit1.Component_1.desc</Single>
+													<Single Name="Default" Type="string">Digital input</Single>
+												</Single>
+												<Single Name="VisibleName" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
+													<Single Name="Namespace" Type="string">local</Single>
+													<Single Name="Identifier" Type="string">InputField.Channel1.Bit1.Component_1.name</Single>
+													<Single Name="Default" Type="string">_IN</Single>
+												</Single>
+												<Single Name="Identifier" Type="string">InputField.Channel1.Bit1.Component_1</Single>
+												<Single Name="Value" Type="string">FALSE</Single>
+												<Single Name="Type" Type="string">BOOL</Single>
+												<Single Name="Default" Type="string">FALSE</Single>
+											</Single>
+											<Single Name="Type" Type="string">BOOL</Single>
+											<Single Name="Default" Type="string">FALSE</Single>
+											<Single Name="Value" Type="string">FALSE</Single>
+										</Single>
+										<Single Type="{1944b378-8867-41f4-b1f4-6e5b1e6547ba}" Method="IArchivable">
+											<Null Name="FilterFlags" />
+											<Single Name="PositionId" Type="long">4109</Single>
+											<Single Name="EditorPositionId" Type="long">4110</Single>
+											<Single Name="Description" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
+												<Single Name="Namespace" Type="string">local</Single>
+												<Single Name="Identifier" Type="string">InputField.Channel1.Bit2.Component_2.desc</Single>
+												<Single Name="Default" Type="string">Digital input</Single>
+											</Single>
+											<Single Name="VisibleName" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
+												<Single Name="Namespace" Type="string">local</Single>
+												<Single Name="Identifier" Type="string">InputField.Channel1.Bit2.Component_2.name</Single>
+												<Single Name="Default" Type="string">_IN</Single>
+											</Single>
+											<Single Name="Identifier" Type="string">InputField.Channel1.Bit2.Component_2</Single>
+											<Single Name="BaseType" Type="{08a69302-82ff-4bf9-a55d-a6014ee63990}" Method="IArchivable">
+												<Null Name="FilterFlags" />
+												<Single Name="OfflineAccess" Type="{f7a1fdea-1444-4931-82ab-fdb68bf81bcf}">Read</Single>
+												<Single Name="OnlineAccess" Type="{f7a1fdea-1444-4931-82ab-fdb68bf81bcf}">Read</Single>
+												<Single Name="Description" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
+													<Single Name="Namespace" Type="string">local</Single>
+													<Single Name="Identifier" Type="string">InputField.Channel1.Bit2.Component_2.desc</Single>
+													<Single Name="Default" Type="string">Digital input</Single>
+												</Single>
+												<Single Name="VisibleName" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
+													<Single Name="Namespace" Type="string">local</Single>
+													<Single Name="Identifier" Type="string">InputField.Channel1.Bit2.Component_2.name</Single>
+													<Single Name="Default" Type="string">_IN</Single>
+												</Single>
+												<Single Name="Identifier" Type="string">InputField.Channel1.Bit2.Component_2</Single>
+												<Single Name="Value" Type="string">FALSE</Single>
+												<Single Name="Type" Type="string">BOOL</Single>
+												<Single Name="Default" Type="string">FALSE</Single>
+											</Single>
+											<Single Name="Type" Type="string">BOOL</Single>
+											<Single Name="Default" Type="string">FALSE</Single>
+											<Single Name="Value" Type="string">FALSE</Single>
+										</Single>
+										<Single Type="{1944b378-8867-41f4-b1f4-6e5b1e6547ba}" Method="IArchivable">
+											<Null Name="FilterFlags" />
+											<Single Name="PositionId" Type="long">4111</Single>
+											<Single Name="EditorPositionId" Type="long">4112</Single>
+											<Single Name="Description" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
+												<Single Name="Namespace" Type="string">local</Single>
+												<Single Name="Identifier" Type="string">InputField.Channel1.Bit3.Component_3.desc</Single>
+												<Single Name="Default" Type="string">Digital input</Single>
+											</Single>
+											<Single Name="VisibleName" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
+												<Single Name="Namespace" Type="string">local</Single>
+												<Single Name="Identifier" Type="string">InputField.Channel1.Bit3.Component_3.name</Single>
+												<Single Name="Default" Type="string">_IN</Single>
+											</Single>
+											<Single Name="Identifier" Type="string">InputField.Channel1.Bit3.Component_3</Single>
+											<Single Name="BaseType" Type="{08a69302-82ff-4bf9-a55d-a6014ee63990}" Method="IArchivable">
+												<Null Name="FilterFlags" />
+												<Single Name="OfflineAccess" Type="{f7a1fdea-1444-4931-82ab-fdb68bf81bcf}">Read</Single>
+												<Single Name="OnlineAccess" Type="{f7a1fdea-1444-4931-82ab-fdb68bf81bcf}">Read</Single>
+												<Single Name="Description" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
+													<Single Name="Namespace" Type="string">local</Single>
+													<Single Name="Identifier" Type="string">InputField.Channel1.Bit3.Component_3.desc</Single>
+													<Single Name="Default" Type="string">Digital input</Single>
+												</Single>
+												<Single Name="VisibleName" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
+													<Single Name="Namespace" Type="string">local</Single>
+													<Single Name="Identifier" Type="string">InputField.Channel1.Bit3.Component_3.name</Single>
+													<Single Name="Default" Type="string">_IN</Single>
+												</Single>
+												<Single Name="Identifier" Type="string">InputField.Channel1.Bit3.Component_3</Single>
+												<Single Name="Value" Type="string">FALSE</Single>
+												<Single Name="Type" Type="string">BOOL</Single>
+												<Single Name="Default" Type="string">FALSE</Single>
+											</Single>
+											<Single Name="Type" Type="string">BOOL</Single>
+											<Single Name="Default" Type="string">FALSE</Single>
+											<Single Name="Value" Type="string">FALSE</Single>
+										</Single>
+										<Single Type="{1944b378-8867-41f4-b1f4-6e5b1e6547ba}" Method="IArchivable">
+											<Null Name="FilterFlags" />
+											<Single Name="PositionId" Type="long">4113</Single>
+											<Single Name="EditorPositionId" Type="long">4114</Single>
+											<Single Name="Description" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
+												<Single Name="Namespace" Type="string">local</Single>
+												<Single Name="Identifier" Type="string">InputField.Channel1.Bit4.Component_4.desc</Single>
+												<Single Name="Default" Type="string">Digital input</Single>
+											</Single>
+											<Single Name="VisibleName" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
+												<Single Name="Namespace" Type="string">local</Single>
+												<Single Name="Identifier" Type="string">InputField.Channel1.Bit4.Component_4.name</Single>
+												<Single Name="Default" Type="string">_IN</Single>
+											</Single>
+											<Single Name="Identifier" Type="string">InputField.Channel1.Bit4.Component_4</Single>
+											<Single Name="BaseType" Type="{08a69302-82ff-4bf9-a55d-a6014ee63990}" Method="IArchivable">
+												<Null Name="FilterFlags" />
+												<Single Name="OfflineAccess" Type="{f7a1fdea-1444-4931-82ab-fdb68bf81bcf}">Read</Single>
+												<Single Name="OnlineAccess" Type="{f7a1fdea-1444-4931-82ab-fdb68bf81bcf}">Read</Single>
+												<Single Name="Description" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
+													<Single Name="Namespace" Type="string">local</Single>
+													<Single Name="Identifier" Type="string">InputField.Channel1.Bit4.Component_4.desc</Single>
+													<Single Name="Default" Type="string">Digital input</Single>
+												</Single>
+												<Single Name="VisibleName" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
+													<Single Name="Namespace" Type="string">local</Single>
+													<Single Name="Identifier" Type="string">InputField.Channel1.Bit4.Component_4.name</Single>
+													<Single Name="Default" Type="string">_IN</Single>
+												</Single>
+												<Single Name="Identifier" Type="string">InputField.Channel1.Bit4.Component_4</Single>
+												<Single Name="Value" Type="string">FALSE</Single>
+												<Single Name="Type" Type="string">BOOL</Single>
+												<Single Name="Default" Type="string">FALSE</Single>
+											</Single>
+											<Single Name="Type" Type="string">BOOL</Single>
+											<Single Name="Default" Type="string">FALSE</Single>
+											<Single Name="Value" Type="string">FALSE</Single>
+										</Single>
+										<Single Type="{1944b378-8867-41f4-b1f4-6e5b1e6547ba}" Method="IArchivable">
+											<Null Name="FilterFlags" />
+											<Single Name="PositionId" Type="long">4115</Single>
+											<Single Name="EditorPositionId" Type="long">4116</Single>
+											<Single Name="Description" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
+												<Single Name="Namespace" Type="string">local</Single>
+												<Single Name="Identifier" Type="string">InputField.Channel1.Bit5.Component_5.desc</Single>
+												<Single Name="Default" Type="string">Digital input</Single>
+											</Single>
+											<Single Name="VisibleName" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
+												<Single Name="Namespace" Type="string">local</Single>
+												<Single Name="Identifier" Type="string">InputField.Channel1.Bit5.Component_5.name</Single>
+												<Single Name="Default" Type="string">_IN</Single>
+											</Single>
+											<Single Name="Identifier" Type="string">InputField.Channel1.Bit5.Component_5</Single>
+											<Single Name="BaseType" Type="{08a69302-82ff-4bf9-a55d-a6014ee63990}" Method="IArchivable">
+												<Null Name="FilterFlags" />
+												<Single Name="OfflineAccess" Type="{f7a1fdea-1444-4931-82ab-fdb68bf81bcf}">Read</Single>
+												<Single Name="OnlineAccess" Type="{f7a1fdea-1444-4931-82ab-fdb68bf81bcf}">Read</Single>
+												<Single Name="Description" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
+													<Single Name="Namespace" Type="string">local</Single>
+													<Single Name="Identifier" Type="string">InputField.Channel1.Bit5.Component_5.desc</Single>
+													<Single Name="Default" Type="string">Digital input</Single>
+												</Single>
+												<Single Name="VisibleName" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
+													<Single Name="Namespace" Type="string">local</Single>
+													<Single Name="Identifier" Type="string">InputField.Channel1.Bit5.Component_5.name</Single>
+													<Single Name="Default" Type="string">_IN</Single>
+												</Single>
+												<Single Name="Identifier" Type="string">InputField.Channel1.Bit5.Component_5</Single>
+												<Single Name="Value" Type="string">FALSE</Single>
+												<Single Name="Type" Type="string">BOOL</Single>
+												<Single Name="Default" Type="string">FALSE</Single>
+											</Single>
+											<Single Name="Type" Type="string">BOOL</Single>
+											<Single Name="Default" Type="string">FALSE</Single>
+											<Single Name="Value" Type="string">FALSE</Single>
+										</Single>
+										<Single Type="{1944b378-8867-41f4-b1f4-6e5b1e6547ba}" Method="IArchivable">
+											<Null Name="FilterFlags" />
+											<Single Name="PositionId" Type="long">4117</Single>
+											<Single Name="EditorPositionId" Type="long">4118</Single>
+											<Single Name="Description" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
+												<Single Name="Namespace" Type="string">local</Single>
+												<Single Name="Identifier" Type="string">InputField.Channel1.Bit6.Component_6.desc</Single>
+												<Single Name="Default" Type="string">Digital input</Single>
+											</Single>
+											<Single Name="VisibleName" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
+												<Single Name="Namespace" Type="string">local</Single>
+												<Single Name="Identifier" Type="string">InputField.Channel1.Bit6.Component_6.name</Single>
+												<Single Name="Default" Type="string">_IN</Single>
+											</Single>
+											<Single Name="Identifier" Type="string">InputField.Channel1.Bit6.Component_6</Single>
+											<Single Name="BaseType" Type="{08a69302-82ff-4bf9-a55d-a6014ee63990}" Method="IArchivable">
+												<Null Name="FilterFlags" />
+												<Single Name="OfflineAccess" Type="{f7a1fdea-1444-4931-82ab-fdb68bf81bcf}">Read</Single>
+												<Single Name="OnlineAccess" Type="{f7a1fdea-1444-4931-82ab-fdb68bf81bcf}">Read</Single>
+												<Single Name="Description" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
+													<Single Name="Namespace" Type="string">local</Single>
+													<Single Name="Identifier" Type="string">InputField.Channel1.Bit6.Component_6.desc</Single>
+													<Single Name="Default" Type="string">Digital input</Single>
+												</Single>
+												<Single Name="VisibleName" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
+													<Single Name="Namespace" Type="string">local</Single>
+													<Single Name="Identifier" Type="string">InputField.Channel1.Bit6.Component_6.name</Single>
+													<Single Name="Default" Type="string">_IN</Single>
+												</Single>
+												<Single Name="Identifier" Type="string">InputField.Channel1.Bit6.Component_6</Single>
+												<Single Name="Value" Type="string">FALSE</Single>
+												<Single Name="Type" Type="string">BOOL</Single>
+												<Single Name="Default" Type="string">FALSE</Single>
+											</Single>
+											<Single Name="Type" Type="string">BOOL</Single>
+											<Single Name="Default" Type="string">FALSE</Single>
+											<Single Name="Value" Type="string">FALSE</Single>
+										</Single>
+										<Single Type="{1944b378-8867-41f4-b1f4-6e5b1e6547ba}" Method="IArchivable">
+											<Null Name="FilterFlags" />
+											<Single Name="PositionId" Type="long">4119</Single>
+											<Single Name="EditorPositionId" Type="long">4120</Single>
+											<Single Name="Description" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
+												<Single Name="Namespace" Type="string">local</Single>
+												<Single Name="Identifier" Type="string">InputField.Channel1.Bit7.Component_7.desc</Single>
+												<Single Name="Default" Type="string">Digital input</Single>
+											</Single>
+											<Single Name="VisibleName" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
+												<Single Name="Namespace" Type="string">local</Single>
+												<Single Name="Identifier" Type="string">InputField.Channel1.Bit7.Component_7.name</Single>
+												<Single Name="Default" Type="string">_IN</Single>
+											</Single>
+											<Single Name="Identifier" Type="string">InputField.Channel1.Bit7.Component_7</Single>
+											<Single Name="BaseType" Type="{08a69302-82ff-4bf9-a55d-a6014ee63990}" Method="IArchivable">
+												<Null Name="FilterFlags" />
+												<Single Name="OfflineAccess" Type="{f7a1fdea-1444-4931-82ab-fdb68bf81bcf}">Read</Single>
+												<Single Name="OnlineAccess" Type="{f7a1fdea-1444-4931-82ab-fdb68bf81bcf}">Read</Single>
+												<Single Name="Description" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
+													<Single Name="Namespace" Type="string">local</Single>
+													<Single Name="Identifier" Type="string">InputField.Channel1.Bit7.Component_7.desc</Single>
+													<Single Name="Default" Type="string">Digital input</Single>
+												</Single>
+												<Single Name="VisibleName" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
+													<Single Name="Namespace" Type="string">local</Single>
+													<Single Name="Identifier" Type="string">InputField.Channel1.Bit7.Component_7.name</Single>
+													<Single Name="Default" Type="string">_IN</Single>
+												</Single>
+												<Single Name="Identifier" Type="string">InputField.Channel1.Bit7.Component_7</Single>
+												<Single Name="Value" Type="string">FALSE</Single>
+												<Single Name="Type" Type="string">BOOL</Single>
+												<Single Name="Default" Type="string">FALSE</Single>
+											</Single>
+											<Single Name="Type" Type="string">BOOL</Single>
+											<Single Name="Default" Type="string">FALSE</Single>
+											<Single Name="Value" Type="string">FALSE</Single>
+										</Single>
+										<Single Type="{1944b378-8867-41f4-b1f4-6e5b1e6547ba}" Method="IArchivable">
+											<Null Name="FilterFlags" />
+											<Single Name="PositionId" Type="long">4121</Single>
+											<Single Name="EditorPositionId" Type="long">4122</Single>
+											<Single Name="Description" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
+												<Single Name="Namespace" Type="string">local</Single>
+												<Single Name="Identifier" Type="string">InputField.Channel1.Bit8.Component_8.desc</Single>
+												<Single Name="Default" Type="string">Digital input</Single>
+											</Single>
+											<Single Name="VisibleName" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
+												<Single Name="Namespace" Type="string">local</Single>
+												<Single Name="Identifier" Type="string">InputField.Channel1.Bit8.Component_8.name</Single>
+												<Single Name="Default" Type="string">_IN</Single>
+											</Single>
+											<Single Name="Identifier" Type="string">InputField.Channel1.Bit8.Component_8</Single>
+											<Single Name="BaseType" Type="{08a69302-82ff-4bf9-a55d-a6014ee63990}" Method="IArchivable">
+												<Null Name="FilterFlags" />
+												<Single Name="OfflineAccess" Type="{f7a1fdea-1444-4931-82ab-fdb68bf81bcf}">Read</Single>
+												<Single Name="OnlineAccess" Type="{f7a1fdea-1444-4931-82ab-fdb68bf81bcf}">Read</Single>
+												<Single Name="Description" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
+													<Single Name="Namespace" Type="string">local</Single>
+													<Single Name="Identifier" Type="string">InputField.Channel1.Bit8.Component_8.desc</Single>
+													<Single Name="Default" Type="string">Digital input</Single>
+												</Single>
+												<Single Name="VisibleName" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
+													<Single Name="Namespace" Type="string">local</Single>
+													<Single Name="Identifier" Type="string">InputField.Channel1.Bit8.Component_8.name</Single>
+													<Single Name="Default" Type="string">_IN</Single>
+												</Single>
+												<Single Name="Identifier" Type="string">InputField.Channel1.Bit8.Component_8</Single>
+												<Single Name="Value" Type="string">FALSE</Single>
+												<Single Name="Type" Type="string">BOOL</Single>
+												<Single Name="Default" Type="string">FALSE</Single>
+											</Single>
+											<Single Name="Type" Type="string">BOOL</Single>
+											<Single Name="Default" Type="string">FALSE</Single>
+											<Single Name="Value" Type="string">FALSE</Single>
+										</Single>
+										<Single Type="{1944b378-8867-41f4-b1f4-6e5b1e6547ba}" Method="IArchivable">
+											<Null Name="FilterFlags" />
+											<Single Name="PositionId" Type="long">4123</Single>
+											<Single Name="EditorPositionId" Type="long">4124</Single>
+											<Single Name="Description" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
+												<Single Name="Namespace" Type="string">local</Single>
+												<Single Name="Identifier" Type="string">InputField.Channel1.Bit9.Component_9.desc</Single>
+												<Single Name="Default" Type="string">Digital input</Single>
+											</Single>
+											<Single Name="VisibleName" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
+												<Single Name="Namespace" Type="string">local</Single>
+												<Single Name="Identifier" Type="string">InputField.Channel1.Bit9.Component_9.name</Single>
+												<Single Name="Default" Type="string">_IN</Single>
+											</Single>
+											<Single Name="Identifier" Type="string">InputField.Channel1.Bit9.Component_9</Single>
+											<Single Name="BaseType" Type="{08a69302-82ff-4bf9-a55d-a6014ee63990}" Method="IArchivable">
+												<Null Name="FilterFlags" />
+												<Single Name="OfflineAccess" Type="{f7a1fdea-1444-4931-82ab-fdb68bf81bcf}">Read</Single>
+												<Single Name="OnlineAccess" Type="{f7a1fdea-1444-4931-82ab-fdb68bf81bcf}">Read</Single>
+												<Single Name="Description" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
+													<Single Name="Namespace" Type="string">local</Single>
+													<Single Name="Identifier" Type="string">InputField.Channel1.Bit9.Component_9.desc</Single>
+													<Single Name="Default" Type="string">Digital input</Single>
+												</Single>
+												<Single Name="VisibleName" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
+													<Single Name="Namespace" Type="string">local</Single>
+													<Single Name="Identifier" Type="string">InputField.Channel1.Bit9.Component_9.name</Single>
+													<Single Name="Default" Type="string">_IN</Single>
+												</Single>
+												<Single Name="Identifier" Type="string">InputField.Channel1.Bit9.Component_9</Single>
+												<Single Name="Value" Type="string">FALSE</Single>
+												<Single Name="Type" Type="string">BOOL</Single>
+												<Single Name="Default" Type="string">FALSE</Single>
+											</Single>
+											<Single Name="Type" Type="string">BOOL</Single>
+											<Single Name="Default" Type="string">FALSE</Single>
+											<Single Name="Value" Type="string">FALSE</Single>
+										</Single>
+										<Single Type="{1944b378-8867-41f4-b1f4-6e5b1e6547ba}" Method="IArchivable">
+											<Null Name="FilterFlags" />
+											<Single Name="PositionId" Type="long">4125</Single>
+											<Single Name="EditorPositionId" Type="long">4126</Single>
+											<Single Name="Description" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
+												<Single Name="Namespace" Type="string">local</Single>
+												<Single Name="Identifier" Type="string">InputField.Channel1.Bit10.Component_10.desc</Single>
+												<Single Name="Default" Type="string">Digital input</Single>
+											</Single>
+											<Single Name="VisibleName" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
+												<Single Name="Namespace" Type="string">local</Single>
+												<Single Name="Identifier" Type="string">InputField.Channel1.Bit10.Component_10.name</Single>
+												<Single Name="Default" Type="string">_IN</Single>
+											</Single>
+											<Single Name="Identifier" Type="string">InputField.Channel1.Bit10.Component_10</Single>
+											<Single Name="BaseType" Type="{08a69302-82ff-4bf9-a55d-a6014ee63990}" Method="IArchivable">
+												<Null Name="FilterFlags" />
+												<Single Name="OfflineAccess" Type="{f7a1fdea-1444-4931-82ab-fdb68bf81bcf}">Read</Single>
+												<Single Name="OnlineAccess" Type="{f7a1fdea-1444-4931-82ab-fdb68bf81bcf}">Read</Single>
+												<Single Name="Description" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
+													<Single Name="Namespace" Type="string">local</Single>
+													<Single Name="Identifier" Type="string">InputField.Channel1.Bit10.Component_10.desc</Single>
+													<Single Name="Default" Type="string">Digital input</Single>
+												</Single>
+												<Single Name="VisibleName" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
+													<Single Name="Namespace" Type="string">local</Single>
+													<Single Name="Identifier" Type="string">InputField.Channel1.Bit10.Component_10.name</Single>
+													<Single Name="Default" Type="string">_IN</Single>
+												</Single>
+												<Single Name="Identifier" Type="string">InputField.Channel1.Bit10.Component_10</Single>
+												<Single Name="Value" Type="string">FALSE</Single>
+												<Single Name="Type" Type="string">BOOL</Single>
+												<Single Name="Default" Type="string">FALSE</Single>
+											</Single>
+											<Single Name="Type" Type="string">BOOL</Single>
+											<Single Name="Default" Type="string">FALSE</Single>
+											<Single Name="Value" Type="string">FALSE</Single>
+										</Single>
+										<Single Type="{1944b378-8867-41f4-b1f4-6e5b1e6547ba}" Method="IArchivable">
+											<Null Name="FilterFlags" />
+											<Single Name="PositionId" Type="long">4127</Single>
+											<Single Name="EditorPositionId" Type="long">4128</Single>
+											<Single Name="Description" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
+												<Single Name="Namespace" Type="string">local</Single>
+												<Single Name="Identifier" Type="string">InputField.Channel1.Bit11.Component_11.desc</Single>
+												<Single Name="Default" Type="string">Digital input</Single>
+											</Single>
+											<Single Name="VisibleName" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
+												<Single Name="Namespace" Type="string">local</Single>
+												<Single Name="Identifier" Type="string">InputField.Channel1.Bit11.Component_11.name</Single>
+												<Single Name="Default" Type="string">_IN</Single>
+											</Single>
+											<Single Name="Identifier" Type="string">InputField.Channel1.Bit11.Component_11</Single>
+											<Single Name="BaseType" Type="{08a69302-82ff-4bf9-a55d-a6014ee63990}" Method="IArchivable">
+												<Null Name="FilterFlags" />
+												<Single Name="OfflineAccess" Type="{f7a1fdea-1444-4931-82ab-fdb68bf81bcf}">Read</Single>
+												<Single Name="OnlineAccess" Type="{f7a1fdea-1444-4931-82ab-fdb68bf81bcf}">Read</Single>
+												<Single Name="Description" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
+													<Single Name="Namespace" Type="string">local</Single>
+													<Single Name="Identifier" Type="string">InputField.Channel1.Bit11.Component_11.desc</Single>
+													<Single Name="Default" Type="string">Digital input</Single>
+												</Single>
+												<Single Name="VisibleName" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
+													<Single Name="Namespace" Type="string">local</Single>
+													<Single Name="Identifier" Type="string">InputField.Channel1.Bit11.Component_11.name</Single>
+													<Single Name="Default" Type="string">_IN</Single>
+												</Single>
+												<Single Name="Identifier" Type="string">InputField.Channel1.Bit11.Component_11</Single>
+												<Single Name="Value" Type="string">FALSE</Single>
+												<Single Name="Type" Type="string">BOOL</Single>
+												<Single Name="Default" Type="string">FALSE</Single>
+											</Single>
+											<Single Name="Type" Type="string">BOOL</Single>
+											<Single Name="Default" Type="string">FALSE</Single>
+											<Single Name="Value" Type="string">FALSE</Single>
+										</Single>
+										<Single Type="{1944b378-8867-41f4-b1f4-6e5b1e6547ba}" Method="IArchivable">
+											<Null Name="FilterFlags" />
+											<Single Name="PositionId" Type="long">4129</Single>
+											<Single Name="EditorPositionId" Type="long">4130</Single>
+											<Single Name="Description" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
+												<Single Name="Namespace" Type="string">local</Single>
+												<Single Name="Identifier" Type="string">InputField.Channel1.Bit12.Component_12.desc</Single>
+												<Single Name="Default" Type="string">Digital input</Single>
+											</Single>
+											<Single Name="VisibleName" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
+												<Single Name="Namespace" Type="string">local</Single>
+												<Single Name="Identifier" Type="string">InputField.Channel1.Bit12.Component_12.name</Single>
+												<Single Name="Default" Type="string">_IN</Single>
+											</Single>
+											<Single Name="Identifier" Type="string">InputField.Channel1.Bit12.Component_12</Single>
+											<Single Name="BaseType" Type="{08a69302-82ff-4bf9-a55d-a6014ee63990}" Method="IArchivable">
+												<Null Name="FilterFlags" />
+												<Single Name="OfflineAccess" Type="{f7a1fdea-1444-4931-82ab-fdb68bf81bcf}">Read</Single>
+												<Single Name="OnlineAccess" Type="{f7a1fdea-1444-4931-82ab-fdb68bf81bcf}">Read</Single>
+												<Single Name="Description" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
+													<Single Name="Namespace" Type="string">local</Single>
+													<Single Name="Identifier" Type="string">InputField.Channel1.Bit12.Component_12.desc</Single>
+													<Single Name="Default" Type="string">Digital input</Single>
+												</Single>
+												<Single Name="VisibleName" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
+													<Single Name="Namespace" Type="string">local</Single>
+													<Single Name="Identifier" Type="string">InputField.Channel1.Bit12.Component_12.name</Single>
+													<Single Name="Default" Type="string">_IN</Single>
+												</Single>
+												<Single Name="Identifier" Type="string">InputField.Channel1.Bit12.Component_12</Single>
+												<Single Name="Value" Type="string">FALSE</Single>
+												<Single Name="Type" Type="string">BOOL</Single>
+												<Single Name="Default" Type="string">FALSE</Single>
+											</Single>
+											<Single Name="Type" Type="string">BOOL</Single>
+											<Single Name="Default" Type="string">FALSE</Single>
+											<Single Name="Value" Type="string">FALSE</Single>
+										</Single>
+										<Single Type="{1944b378-8867-41f4-b1f4-6e5b1e6547ba}" Method="IArchivable">
+											<Null Name="FilterFlags" />
+											<Single Name="PositionId" Type="long">4131</Single>
+											<Single Name="EditorPositionId" Type="long">4132</Single>
+											<Single Name="Description" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
+												<Single Name="Namespace" Type="string">local</Single>
+												<Single Name="Identifier" Type="string">InputField.Channel1.Bit13.Component_13.desc</Single>
+												<Single Name="Default" Type="string">Digital input</Single>
+											</Single>
+											<Single Name="VisibleName" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
+												<Single Name="Namespace" Type="string">local</Single>
+												<Single Name="Identifier" Type="string">InputField.Channel1.Bit13.Component_13.name</Single>
+												<Single Name="Default" Type="string">_IN</Single>
+											</Single>
+											<Single Name="Identifier" Type="string">InputField.Channel1.Bit13.Component_13</Single>
+											<Single Name="BaseType" Type="{08a69302-82ff-4bf9-a55d-a6014ee63990}" Method="IArchivable">
+												<Null Name="FilterFlags" />
+												<Single Name="OfflineAccess" Type="{f7a1fdea-1444-4931-82ab-fdb68bf81bcf}">Read</Single>
+												<Single Name="OnlineAccess" Type="{f7a1fdea-1444-4931-82ab-fdb68bf81bcf}">Read</Single>
+												<Single Name="Description" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
+													<Single Name="Namespace" Type="string">local</Single>
+													<Single Name="Identifier" Type="string">InputField.Channel1.Bit13.Component_13.desc</Single>
+													<Single Name="Default" Type="string">Digital input</Single>
+												</Single>
+												<Single Name="VisibleName" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
+													<Single Name="Namespace" Type="string">local</Single>
+													<Single Name="Identifier" Type="string">InputField.Channel1.Bit13.Component_13.name</Single>
+													<Single Name="Default" Type="string">_IN</Single>
+												</Single>
+												<Single Name="Identifier" Type="string">InputField.Channel1.Bit13.Component_13</Single>
+												<Single Name="Value" Type="string">FALSE</Single>
+												<Single Name="Type" Type="string">BOOL</Single>
+												<Single Name="Default" Type="string">FALSE</Single>
+											</Single>
+											<Single Name="Type" Type="string">BOOL</Single>
+											<Single Name="Default" Type="string">FALSE</Single>
+											<Single Name="Value" Type="string">FALSE</Single>
+										</Single>
+										<Single Type="{1944b378-8867-41f4-b1f4-6e5b1e6547ba}" Method="IArchivable">
+											<Null Name="FilterFlags" />
+											<Single Name="PositionId" Type="long">4133</Single>
+											<Single Name="EditorPositionId" Type="long">4134</Single>
+											<Single Name="Description" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
+												<Single Name="Namespace" Type="string">local</Single>
+												<Single Name="Identifier" Type="string">InputField.Channel1.Bit14.Component_14.desc</Single>
+												<Single Name="Default" Type="string">Digital input</Single>
+											</Single>
+											<Single Name="VisibleName" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
+												<Single Name="Namespace" Type="string">local</Single>
+												<Single Name="Identifier" Type="string">InputField.Channel1.Bit14.Component_14.name</Single>
+												<Single Name="Default" Type="string">_IN</Single>
+											</Single>
+											<Single Name="Identifier" Type="string">InputField.Channel1.Bit14.Component_14</Single>
+											<Single Name="BaseType" Type="{08a69302-82ff-4bf9-a55d-a6014ee63990}" Method="IArchivable">
+												<Null Name="FilterFlags" />
+												<Single Name="OfflineAccess" Type="{f7a1fdea-1444-4931-82ab-fdb68bf81bcf}">Read</Single>
+												<Single Name="OnlineAccess" Type="{f7a1fdea-1444-4931-82ab-fdb68bf81bcf}">Read</Single>
+												<Single Name="Description" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
+													<Single Name="Namespace" Type="string">local</Single>
+													<Single Name="Identifier" Type="string">InputField.Channel1.Bit14.Component_14.desc</Single>
+													<Single Name="Default" Type="string">Digital input</Single>
+												</Single>
+												<Single Name="VisibleName" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
+													<Single Name="Namespace" Type="string">local</Single>
+													<Single Name="Identifier" Type="string">InputField.Channel1.Bit14.Component_14.name</Single>
+													<Single Name="Default" Type="string">_IN</Single>
+												</Single>
+												<Single Name="Identifier" Type="string">InputField.Channel1.Bit14.Component_14</Single>
+												<Single Name="Value" Type="string">FALSE</Single>
+												<Single Name="Type" Type="string">BOOL</Single>
+												<Single Name="Default" Type="string">FALSE</Single>
+											</Single>
+											<Single Name="Type" Type="string">BOOL</Single>
+											<Single Name="Default" Type="string">FALSE</Single>
+											<Single Name="Value" Type="string">FALSE</Single>
+										</Single>
+										<Single Type="{1944b378-8867-41f4-b1f4-6e5b1e6547ba}" Method="IArchivable">
+											<Null Name="FilterFlags" />
+											<Single Name="PositionId" Type="long">4135</Single>
+											<Single Name="EditorPositionId" Type="long">4136</Single>
+											<Single Name="Description" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
+												<Single Name="Namespace" Type="string">local</Single>
+												<Single Name="Identifier" Type="string">InputField.Channel1.Bit15.Component_15.desc</Single>
+												<Single Name="Default" Type="string">Digital input</Single>
+											</Single>
+											<Single Name="VisibleName" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
+												<Single Name="Namespace" Type="string">local</Single>
+												<Single Name="Identifier" Type="string">InputField.Channel1.Bit15.Component_15.name</Single>
+												<Single Name="Default" Type="string">_IN</Single>
+											</Single>
+											<Single Name="Identifier" Type="string">InputField.Channel1.Bit15.Component_15</Single>
+											<Single Name="BaseType" Type="{08a69302-82ff-4bf9-a55d-a6014ee63990}" Method="IArchivable">
+												<Null Name="FilterFlags" />
+												<Single Name="OfflineAccess" Type="{f7a1fdea-1444-4931-82ab-fdb68bf81bcf}">Read</Single>
+												<Single Name="OnlineAccess" Type="{f7a1fdea-1444-4931-82ab-fdb68bf81bcf}">Read</Single>
+												<Single Name="Description" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
+													<Single Name="Namespace" Type="string">local</Single>
+													<Single Name="Identifier" Type="string">InputField.Channel1.Bit15.Component_15.desc</Single>
+													<Single Name="Default" Type="string">Digital input</Single>
+												</Single>
+												<Single Name="VisibleName" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
+													<Single Name="Namespace" Type="string">local</Single>
+													<Single Name="Identifier" Type="string">InputField.Channel1.Bit15.Component_15.name</Single>
+													<Single Name="Default" Type="string">_IN</Single>
+												</Single>
+												<Single Name="Identifier" Type="string">InputField.Channel1.Bit15.Component_15</Single>
+												<Single Name="Value" Type="string">FALSE</Single>
+												<Single Name="Type" Type="string">BOOL</Single>
+												<Single Name="Default" Type="string">FALSE</Single>
+											</Single>
+											<Single Name="Type" Type="string">BOOL</Single>
+											<Single Name="Default" Type="string">FALSE</Single>
+											<Single Name="Value" Type="string">FALSE</Single>
+										</Single>
+										<Single Type="{1944b378-8867-41f4-b1f4-6e5b1e6547ba}" Method="IArchivable">
+											<Null Name="FilterFlags" />
+											<Single Name="PositionId" Type="long">4137</Single>
+											<Single Name="EditorPositionId" Type="long">4138</Single>
+											<Single Name="Description" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
+												<Single Name="Namespace" Type="string">local</Single>
+												<Single Name="Identifier" Type="string">InputField.Channel1.Bit16.Component_16.desc</Single>
+												<Single Name="Default" Type="string">Digital input</Single>
+											</Single>
+											<Single Name="VisibleName" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
+												<Single Name="Namespace" Type="string">local</Single>
+												<Single Name="Identifier" Type="string">InputField.Channel1.Bit16.Component_16.name</Single>
+												<Single Name="Default" Type="string">_IN</Single>
+											</Single>
+											<Single Name="Identifier" Type="string">InputField.Channel1.Bit16.Component_16</Single>
+											<Single Name="BaseType" Type="{08a69302-82ff-4bf9-a55d-a6014ee63990}" Method="IArchivable">
+												<Null Name="FilterFlags" />
+												<Single Name="OfflineAccess" Type="{f7a1fdea-1444-4931-82ab-fdb68bf81bcf}">Read</Single>
+												<Single Name="OnlineAccess" Type="{f7a1fdea-1444-4931-82ab-fdb68bf81bcf}">Read</Single>
+												<Single Name="Description" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
+													<Single Name="Namespace" Type="string">local</Single>
+													<Single Name="Identifier" Type="string">InputField.Channel1.Bit16.Component_16.desc</Single>
+													<Single Name="Default" Type="string">Digital input</Single>
+												</Single>
+												<Single Name="VisibleName" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
+													<Single Name="Namespace" Type="string">local</Single>
+													<Single Name="Identifier" Type="string">InputField.Channel1.Bit16.Component_16.name</Single>
+													<Single Name="Default" Type="string">_IN</Single>
+												</Single>
+												<Single Name="Identifier" Type="string">InputField.Channel1.Bit16.Component_16</Single>
+												<Single Name="Value" Type="string">FALSE</Single>
+												<Single Name="Type" Type="string">BOOL</Single>
+												<Single Name="Default" Type="string">FALSE</Single>
+											</Single>
+											<Single Name="Type" Type="string">BOOL</Single>
+											<Single Name="Default" Type="string">FALSE</Single>
+											<Single Name="Value" Type="string">FALSE</Single>
+										</Single>
+									</List2>
+								</Single>
+								<Null Name="FilterFlags" />
+								<Single Name="OfflineAccess" Type="{f7a1fdea-1444-4931-82ab-fdb68bf81bcf}">Read</Single>
+								<Single Name="OnlineAccess" Type="{f7a1fdea-1444-4931-82ab-fdb68bf81bcf}">Read</Single>
+								<Single Name="PositionId" Type="long">4105</Single>
+								<Single Name="EditorPositionId" Type="long">4106</Single>
+								<Single Name="Description" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
+									<Single Name="Namespace" Type="string">local</Single>
+									<Single Name="Identifier" Type="string">inputProcessParameter1.desc</Single>
+									<Single Name="Default" Type="string">Input Channels</Single>
+								</Single>
+								<Single Name="VisibleName" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
+									<Single Name="Namespace" Type="string">local</Single>
+									<Single Name="Identifier" Type="string">inputProcessParameter1.name</Single>
+									<Single Name="Default" Type="string">_IN</Single>
+								</Single>
+								<Single Name="Identifier" Type="string">16777216</Single>
+								<Single Name="BaseType" Type="string">WORD</Single>
+							</Single>
+							<Single Name="ParamType" Type="string">local:InputField</Single>
+							<Single Name="IndexInDevDesc" Type="long">1</Single>
+						</Single>
+					</List2>
+					<Single Name="LmGuid" Type="System.Guid">8d9de8fe-d599-5694-b09a-98dfd78b1d24</Single>
+					<Null Name="Sections" />
+					<Single Name="InitOnOnlineChange" Type="bool">False</Single>
+					<Single Name="AlwaysMapping" Type="bool">False</Single>
+					<Null Name="EditorName" />
+					<Single Name="AlwaysMappingMode" Type="{9d1b24fb-5845-4978-8458-564ca7830fec}">OnlyIfUnused</Single>
+					<Single Name="CreateBitChannels" Type="bool">False</Single>
+				</Single>
+				<Single Name="BusCycleTaskGuid" Type="System.Guid">00000000-0000-0000-0000-000000000000</Single>
+				<Single Name="DriverInfo" Type="{4f958885-8d0a-4b58-83b6-29cfd1c9cfca}" Method="IArchivable">
+					<List Name="RequiredLibs" Type="System.Collections.ArrayList" />
+					<Null Name="RequiredTasks" />
+					<Single Name="NeedsBusCycle" Type="bool">False</Single>
+					<Single Name="BusCycleTask" Type="string"></Single>
+					<Single Name="IoApp" Type="System.Guid">00000000-0000-0000-0000-000000000000</Single>
+					<Single Name="IoAppSet" Type="bool">False</Single>
+					<Array Name="PositionIds" Type="long">BBAAAAAAAAAFEAAAAAAAAAYQAAAAAAAA</Array>
+					<Single Name="UseSlowestTask" Type="bool">False</Single>
+					<Single Name="NeedsBusCycleBeforeRead" Type="bool">False</Single>
+					<Single Name="GenerateForceVariables" Type="bool">False</Single>
+					<Single Name="EnableDiagnosis" Type="bool">False</Single>
+					<Single Name="AdditionalParameterSetting" Type="uint">0</Single>
+					<Single Name="ShowWarningsAsErrors" Type="bool">False</Single>
+					<Single Name="DiagnosisCheckboxMode" Type="{96a7290c-b036-44e1-a965-c279cddf134b}">Enabled</Single>
+					<Single Name="SkipOverlapCheck" Type="bool">False</Single>
+					<Single Name="SymbolicAccessMode" Type="{866ccdec-84a7-4590-aeab-383c7bd79437}">Disabled</Single>
+					<Single Name="OnlineChangeDevice" Type="{e1779e08-585f-4d22-83e1-f36476fd1df5}">Hidden</Single>
+					<Single Name="SupportOnlineChange" Type="bool">False</Single>
+					<Single Name="DeviceScanSupported" Type="bool">False</Single>
+					<Single Name="DeviceNominateSupported" Type="bool">False</Single>
+					<Single Name="DeviceIdentifySupported" Type="bool">False</Single>
+					<Single Name="DeviceUploadDescriptionSupported" Type="bool">False</Single>
+					<Single Name="UpdateIOsInStop" Type="bool">False</Single>
+					<Single Name="StopResetBehaviourSetting" Type="{f333ad6d-dc68-4baa-a3a3-20be74eb2e18}">KeepCurrentValues</Single>
+					<Single Name="StopResetBehaviourUserProgram" Type="string"></Single>
+					<Single Name="BusCycleTaskGuid" Type="System.Guid">00000000-0000-0000-0000-000000000000</Single>
+					<Single Name="PlcAlwaysMapping" Type="bool">False</Single>
+					<Single Name="PlCAlwaysMappingMode" Type="{9d1b24fb-5845-4978-8458-564ca7830fec}">OnlyIfUnused</Single>
+				</Single>
+				<List Name="CustomItems" Type="{7d23305a-7bb9-46e6-b58b-01ea5694add1}" />
+				<Single Name="ModuleId" Type="int">-1</Single>
+				<Null Name="IoUpdateTask" />
+				<List Name="AdditionalInterfaces" Type="System.Collections.ArrayList" />
+				<List Name="Constraints" Type="System.Collections.ArrayList" />
+				<Single Name="hideInStatusPage" Type="bool">False</Single>
+				<Single Name="updateAllowed" Type="bool">True</Single>
+				<Single Name="fixedInputAddress" Type="string"></Single>
+				<Single Name="fixedOutputAddress" Type="string"></Single>
+				<Single Name="DownloadParamsDevDescOrder" Type="bool">False</Single>
+				<List Name="AllowOnlyDevices" Type="System.Collections.ArrayList" />
+				<Single Name="InitialStatusFlag" Type="uint">1</Single>
+				<Single Name="UseBlobInitConst" Type="bool">False</Single>
+				<Single Name="AlwaysMappingMode" Type="{9d1b24fb-5845-4978-8458-564ca7830fec}">OnlyIfUnused</Single>
+				<Single Name="ConnectorGroup" Type="uint">0</Single>
+				<Array Name="AllowedPages" Type="string" />
+				<Single Name="AlwaysMapping" Type="bool">False</Single>
+				<Single Name="Client" Type="string"></Single>
+				<Single Name="MaxInputSize" Type="uint">0</Single>
+				<Single Name="MaxOutputSize" Type="uint">0</Single>
+				<Single Name="MaxInOutputSize" Type="uint">0</Single>
+				<Single Name="ClientTypeGuid" Type="System.Guid">00000000-0000-0000-0000-000000000000</Single>
+				<Single Name="ClientConnectorInterface" Type="string"></Single>
+				<Single Name="ClientConnectorId" Type="int">-1</Single>
+				<Single Name="AlwaysMappingDisabled" Type="bool">False</Single>
+			</Single>
+		</List>
+	</Single>
+	<Single Name="Attributes" Type="{1fdbedd8-b518-4ebd-99df-805f2f77c071}" Method="IArchivable">
+		<Dictionary Type="System.Collections.Hashtable" Name="Attributes" />
+	</Single>
+	<Single Name="CommunicationSettings" Type="{58f2b04d-505d-4589-9fcf-0ec83491f9b2}" Method="IArchivable">
+		<Single Name="SaveLocally" Type="bool">False</Single>
+		<Single Name="CommunicationSettingFilter" Type="int">1</Single>
+		<Single Name="CommunicationSettingSorting" Type="int">0</Single>
+		<Single Name="TrackingMode" Type="int">5</Single>
+		<Single Name="GatewayGuid" Type="System.Guid">00000000-0000-0000-0000-000000000000</Single>
+		<Null Name="Address" />
+		<Single Name="PromptAtLogin" Type="bool">False</Single>
+		<Single Name="SimulationMode" Type="bool">False</Single>
+		<Single Name="SecureOnlineMode" Type="bool">False</Single>
+		<Single Name="SecureOnlineModeExplicitelySet" Type="bool">False</Single>
+		<Single Name="Name" Type="string"></Single>
+		<Single Name="MonitoringIntervalMsec" Type="int">200</Single>
+		<Null Name="ScanInformation" />
+		<Single Name="IsCommunicationEncrypted" Type="bool">False</Single>
+		<Single Name="IsDefaultNameTrackingFromScanActive" Type="bool">False</Single>
+	</Single>
+	<Single Name="IoProviderBase" Type="{848f25ec-eecf-4290-8329-7f6500fd2e0f}" Method="IArchivable">
+		<Array Name="UserBaseAddress" Type="string">
+			<Null />
+			<Null />
+			<Null />
+		</Array>
+	</Single>
+	<Single Name="GuidBusCycleTask" Type="System.Guid">00000000-0000-0000-0000-000000000000</Single>
+	<Single Name="DriverInfo" Type="{4f958885-8d0a-4b58-83b6-29cfd1c9cfca}" Method="IArchivable">
+		<List Name="RequiredLibs" Type="System.Collections.ArrayList" />
+		<Null Name="RequiredTasks" />
+		<Single Name="NeedsBusCycle" Type="bool">False</Single>
+		<Single Name="BusCycleTask" Type="string"></Single>
+		<Single Name="IoApp" Type="System.Guid">00000000-0000-0000-0000-000000000000</Single>
+		<Single Name="IoAppSet" Type="bool">False</Single>
+		<Array Name="PositionIds" Type="long">ARAAAAAAAAACEAAAAAAAAAMQAAAAAAAA</Array>
+		<Single Name="UseSlowestTask" Type="bool">False</Single>
+		<Single Name="NeedsBusCycleBeforeRead" Type="bool">False</Single>
+		<Single Name="GenerateForceVariables" Type="bool">False</Single>
+		<Single Name="EnableDiagnosis" Type="bool">False</Single>
+		<Single Name="AdditionalParameterSetting" Type="uint">0</Single>
+		<Single Name="ShowWarningsAsErrors" Type="bool">False</Single>
+		<Single Name="DiagnosisCheckboxMode" Type="{96a7290c-b036-44e1-a965-c279cddf134b}">Enabled</Single>
+		<Single Name="SkipOverlapCheck" Type="bool">False</Single>
+		<Single Name="SymbolicAccessMode" Type="{866ccdec-84a7-4590-aeab-383c7bd79437}">Disabled</Single>
+		<Single Name="OnlineChangeDevice" Type="{e1779e08-585f-4d22-83e1-f36476fd1df5}">Hidden</Single>
+		<Single Name="SupportOnlineChange" Type="bool">False</Single>
+		<Single Name="DeviceScanSupported" Type="bool">False</Single>
+		<Single Name="DeviceNominateSupported" Type="bool">False</Single>
+		<Single Name="DeviceIdentifySupported" Type="bool">False</Single>
+		<Single Name="DeviceUploadDescriptionSupported" Type="bool">False</Single>
+		<Single Name="UpdateIOsInStop" Type="bool">False</Single>
+		<Single Name="StopResetBehaviourSetting" Type="{f333ad6d-dc68-4baa-a3a3-20be74eb2e18}">KeepCurrentValues</Single>
+		<Single Name="StopResetBehaviourUserProgram" Type="string"></Single>
+		<Single Name="BusCycleTaskGuid" Type="System.Guid">00000000-0000-0000-0000-000000000000</Single>
+		<Single Name="PlcAlwaysMapping" Type="bool">False</Single>
+		<Single Name="PlCAlwaysMappingMode" Type="{9d1b24fb-5845-4978-8458-564ca7830fec}">OnlyIfUnused</Single>
+	</Single>
+	<List Name="CustomItems" Type="{7d23305a-7bb9-46e6-b58b-01ea5694add1}" />
+	<Single Name="IoConfigGlobalsGuid" Type="System.Guid">b514ef73-bfd6-5ee6-a01f-a5f6071c3e62</Single>
+	<Single Name="IoConfigGlobalsMappingGuid" Type="System.Guid">4f9eac4f-683c-55b9-a79c-dd9f7567eabe</Single>
+	<Single Name="IoConfigVarConfigGuid" Type="System.Guid">787f63b2-e51d-53cb-9e3f-6daaf5e1ccc1</Single>
+	<Single Name="IoConfigErrorPouGuid" Type="System.Guid">48987839-d93a-59e3-8536-7c26dba04c84</Single>
+	<Single Name="ModuleId" Type="int">-1</Single>
+	<Null Name="IoUpdateTask" />
+	<Array Name="FunctionalChildren" Type="System.Guid" />
+	<Null Name="UserManagement" />
+	<Null Name="RightsManagement" />
+	<Single Name="showParamsInDevDescOrder" Type="bool">False</Single>
+	<Single Name="fixedInputAddress" Type="string"></Single>
+	<Single Name="fixedOutputAddress" Type="string"></Single>
+	<Single Name="HostObjectGuid" Type="System.Guid">8bc47548-b663-4823-ba18-a40cea85c80c</Single>
+	<Single Name="DownloadParamsDevDescOrder" Type="bool">False</Single>
+	<Single Name="CreateBitChannels" Type="bool">False</Single>
+	<Null Name="AdditionalStringTable" />
+	<Null Name="OnlineHelpUrl" />
+	<Single Name="InteractiveLoginMode" Type="int">-1</Single>
+	<Single Name="UseDeviceApplicationStructure" Type="bool">False</Single>
+	<Single Name="AllowSymbolicVarAccessInSyncWithIecCycle" Type="bool">False</Single>
+	<Single Name="LogicalDeviceList" Type="{ec1f8a3a-98c6-404c-883e-ce9e54b42542}" Method="IArchivable">
+		<List Name="InnerList" Type="System.Collections.ArrayList" />
+	</Single>
+	<Single Name="LogicalLanguageModelPositionId" Type="long">-1</Single>
+	<List Name="SupportedLogicalBusSystems" Type="System.Collections.ArrayList" />
+	<Single Name="MappingPossible" Type="bool">False</Single>
+	<Single Name="HidePropertiesDialog" Type="bool">False</Single>
+	<Null Name="PlaceholderResolution" />
+	<Null Name="RedirectedPlaceholderResolution" />
+</Single>

@@ -1,0 +1,11 @@
+{
+	"allowUnicode": false,
+	"utf8strings": true,
+	"replaceConstants": true,
+	"breakpointLogging": true,
+	"projectDefines": "",
+	"maxCompilerWarnings": 100,
+	"reportCompiledPousIncremental": false,
+	"compilerVersion": "3.5.22.20",
+	"compilerWarnings": {}
+}
